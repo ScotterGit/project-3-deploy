@@ -27,7 +27,7 @@ function Form(props) {
         autoComplete="off"
         value={name}
         onChange={handleChange}
-        placeholder="Learn how to use react..."
+        placeholder="Add new task here..."
       />
       <br/>
       <button type="submit" className="btn btn__primary btn__lg">

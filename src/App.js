@@ -87,18 +87,9 @@ const headingText = `${taskList.length} ${tasksNoun} remaining`;
   return (
     
     <div className="todoapp stack-large">
-      <Router>
-      
-          <Switch>
-              
-              <Route path="/todo">
-                  <Todo />
-              </Route>
- 
-          </Switch>
-      </Router>
-
+      <br />
       <Form addTask={addTask} />
+      <br /> <br />
       <div className="filters btn-group stack-exception">
         {filterList}  
       </div>
