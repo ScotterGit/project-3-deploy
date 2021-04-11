@@ -14,11 +14,12 @@ function Form(props) {
   }
   return (
     <form onSubmit={handleSubmit}>
-      <h2 className="label-wrapper">
+      <h1 className="label-wrapper">
         <label htmlFor="new-todo-input">
           What needs to be done?
         </label>
-      </h2>
+      </h1>
+      <div class="input-ui">
       <input
         type="text"
         id="new-todo-input"
@@ -33,6 +34,7 @@ function Form(props) {
       <button type="submit" className="btn btn__primary btn__lg">
         Add
       </button>
+      </div>
     </form>
   );
 }
